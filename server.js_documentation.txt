@@ -1,0 +1,21 @@
+Before using the app!
+Go to the server folder and find file 'Sentiment.js'
+At the top of the file you will find this code block:
+
+const { CONSUMER_KEY = 'vit3d6ZbmvOkVnjHvIEOIMu3u'
+      , CONSUMER_SECRET = 'xLO7WWruY1n04JbiXpmI6VuCTfG0924wLOR5jDETsUAoovfjFO'
+      , ACCESS_TOKEN = '4828009493-Rmb9xnJmwzKdMxK4AwY1YPNV0HtXpwORkJRdOEp'
+      , ACCESS_TOKEN_SECRET = 'bFD59pWkfSUIaaSok4lyJU2wvrbR9SWnuHQzf4RIhSFMb'
+      } = process.env;
+
+Consumer_Key, Consumer_Secret, Access_token and Access_Token_Secret are the values to access the twitter api, 
+the ones which you see above are my one ones, created just for the test. Please go to https://apps.twitter.com/,
+create new app and generate your own keys, so noone would know them and replace my keys with yours.
+
+Save the file and move to running the server:
+
+1. Open your command prompt and go to the server folder, using the 'cd' command.
+2. Run the command 'node server.js'
+3. After that the server will host on port 3000(set by default).
+4. When the server is open(it will write the message in the command prompt) 
+you can click on bubbles and get the result.
